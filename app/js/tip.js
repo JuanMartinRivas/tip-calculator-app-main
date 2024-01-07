@@ -67,6 +67,8 @@ function handleReset() {
     bill.value = "";
     tipInput.value = "";
     peopleNumber.value = "";
+    tipAmountText.textContent = "$0.00";
+    totalAmountText.textContent = "$0.00";
     clearSelection();
     empty();
 };
