@@ -1,0 +1,68 @@
+main {
+    .card {
+        &--green {
+            background-color: $very-dark-cyan;
+
+            p {
+                color: #FFF;
+            }
+        }
+
+        .grid {
+            display: grid;
+            gap: .5em;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+
+            .percenteage-btn {
+                color: #FFF;
+                background-color: $very-dark-cyan;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: .25s;
+
+                &:hover {
+                    color: $very-dark-cyan;
+                    background-color: $light-grayish-cyan
+                }
+            }
+        }
+
+        .row--mobile {
+            margin-bottom: 1.15em;
+        }
+
+        .result-label {
+            font-size: .75rem;
+            line-height: 1em;
+
+            .smaller {
+                font-size: .5rem;
+                color: $grayish-cyan;
+            }
+        }
+
+        .result-number {
+            font-size: 1.25rem;
+            color: $strong-cyan;
+        }
+
+        .reset-btn {
+            width: 100%;
+            font-size: .75rem;
+            color: $very-dark-cyan;
+            background-color: $strong-cyan;
+            border: none;
+            border-radius: 5px;
+            padding: .5em;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: .25s;
+
+            &:hover {
+                color: $very-dark-cyan;
+                background-color: $light-grayish-cyan
+            }
+        }
+    }
+}

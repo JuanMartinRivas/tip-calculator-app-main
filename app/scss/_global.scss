@@ -23,7 +23,15 @@ h1 {
   display: flex;
   flex-direction: column;
 
+  &--mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   @media (min-width: 900px) {
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 }

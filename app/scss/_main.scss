@@ -9,34 +9,54 @@ main {
         background-color: #FFF;
         border-radius: 20px;
         padding: 1.25em;
+    }
 
-        .label {
-            font-size: .75rem;
-            color: $dark-grayish-cyan;
-        }
+    .label {
+        font-size: .75rem;
+        color: $dark-grayish-cyan;
+    }
 
-        .input {
-            width: 100%;
-            border: none;
-            background-color: $very-light-grayish-cyan;
-            text-align: right;
-            padding: .25em .75em;
-        }
+    .input {
+        width: 100%;
+        margin-bottom: 1.5em;
+        border: none;
+        color: $very-dark-cyan;
+        background-color: $very-light-grayish-cyan;
+        text-align: right;
+        border-radius: 5px;
+        padding: .25em .75em;
 
-        .percenteage-input {
-            border: none;
-            background-color: $very-light-grayish-cyan;
-            text-align: right;
+        &:focus-visible {
+            border: 2px solid $strong-cyan;
+            border-radius: 5px;
         }
+    }
 
-        .input-wrapper {
-            position: relative;
-        }
+    .percenteage-input {
+        border: none;
+        color: $very-dark-cyan;
+        background-color: $very-light-grayish-cyan;
+        text-align: right;
+        border-radius: 5px;
+        padding: 0 .75em;
 
-        .icon {
-            position: absolute;
-            top: 16px;
-            left: 18px;
+        &:focus-visible {
+            border: 2px solid $strong-cyan;
+            border-radius: 5px;
         }
+    }
+
+    .input-wrapper {
+        position: relative;
+    }
+
+    .icon {
+        position: absolute;
+        top: 16px;
+        left: 18px;
+    }
+
+    p.label {
+        margin-bottom: 1em;
     }
 }

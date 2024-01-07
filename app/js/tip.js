@@ -58,8 +58,10 @@ function handleSelect(btn) {
 function handleError() {
     if (peopleNumber.value.length === 0) {
         errorMsg.textContent = "Can't be zero";
+        peopleNumber.classList.add('error')
     } else {
         errorMsg.textContent = "";
+        peopleNumber.classList.remove('error')
     }
 };
 
