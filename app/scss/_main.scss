@@ -1,0 +1,42 @@
+main {
+    .logo {
+        margin: 0 auto;
+        margin-top: 2em;
+        margin-bottom: 1.5em;
+    }
+
+    .card {
+        background-color: #FFF;
+        border-radius: 20px;
+        padding: 1.25em;
+
+        .label {
+            font-size: .75rem;
+            color: $dark-grayish-cyan;
+        }
+
+        .input {
+            width: 100%;
+            border: none;
+            background-color: $very-light-grayish-cyan;
+            text-align: right;
+            padding: .25em .75em;
+        }
+
+        .percenteage-input {
+            border: none;
+            background-color: $very-light-grayish-cyan;
+            text-align: right;
+        }
+
+        .input-wrapper {
+            position: relative;
+        }
+
+        .icon {
+            position: absolute;
+            top: 16px;
+            left: 18px;
+        }
+    }
+}

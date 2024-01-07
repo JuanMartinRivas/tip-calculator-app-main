@@ -3,26 +3,27 @@ html {
 }
 
 body {
-  font-family: 'Space Mono', sans-serif;
+  font-family: "Space Mono", sans-serif;
+  background-color: $light-grayish-cyan;
 }
 
 h1 {
   background-color: $very-dark-cyan;
-  color: #FFF;
-  font-family: 'Space Mono', sans-serif;
+  color: #fff;
+  font-family: "Space Mono", sans-serif;
 }
 
 .container {
   margin: 0 auto;
-  width: 90%;
-  max-width: 1200px;
+  width: 100%;
+  max-width: 880px;
 }
 
 .row {
   display: flex;
   flex-direction: column;
 
-  @media(min-width: 900px) {
+  @media (min-width: 900px) {
     flex-direction: row;
   }
 }
