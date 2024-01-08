@@ -29,7 +29,6 @@ resetBtn.addEventListener('click', handleReset);
 function handleTipInput(input) {
     const total = calculator(bill.value, input.value, peopleNumber.value).total;
     const tipAmount = calculator(bill.value, input.value, peopleNumber.value).tipAmount;
-    console.log(total, tipAmount);
     handleResult(total, tipAmount);
     handleError();
     clearSelection();
@@ -39,7 +38,6 @@ function handleTipInput(input) {
 function handleTipClick(btn) {
     const total = calculator(bill.value, btn.value, peopleNumber.value).total;
     const tipAmount = calculator(bill.value, btn.value, peopleNumber.value).tipAmount;
-    console.log(total, tipAmount);
     handleResult(total, tipAmount);
     handleError();
     empty();

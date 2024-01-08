@@ -8,26 +8,6 @@ main {
             }
         }
 
-        .grid {
-            display: grid;
-            gap: .5em;
-            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-
-            .percenteage-btn {
-                color: #FFF;
-                background-color: $very-dark-cyan;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-                transition: .25s;
-
-                &:hover {
-                    color: $very-dark-cyan;
-                    background-color: $light-grayish-cyan
-                }
-            }
-        }
-
         .row--mobile {
             margin-bottom: 1.15em;
         }

@@ -1,0 +1,25 @@
+main {
+    .percenteage-btn.selected {
+        color: $very-dark-cyan;
+        background-color: $strong-cyan;
+    }
+
+    .input.error {
+        border: 2px solid #ff5263;
+    }
+
+    .error-message {
+        font-size: .75rem;
+        color: #ff5263;
+
+        @media (min-width:900px) {
+            text-align: right;
+        }
+    }
+
+    .reset-btn.empty {
+        opacity: .25;
+        cursor: auto;
+    }
+
+}
