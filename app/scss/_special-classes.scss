@@ -20,6 +20,11 @@ main {
     .reset-btn.empty {
         opacity: .25;
         cursor: auto;
+
+        &:hover {
+            color: $very-dark-cyan;
+            background-color: $strong-cyan;
+        }
     }
 
 }

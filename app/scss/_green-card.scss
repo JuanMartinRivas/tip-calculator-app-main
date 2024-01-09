@@ -23,7 +23,7 @@ main {
         }
 
         .result-number {
-            font-size: 1.25rem;
+            font-size: 1.5rem;
             color: $strong-cyan;
         }
 
@@ -42,6 +42,10 @@ main {
             &:hover {
                 color: $very-dark-cyan;
                 background-color: $light-grayish-cyan
+            }
+
+            @media(min-width:900px) {
+                margin-top: 7.25em;
             }
         }
     }
