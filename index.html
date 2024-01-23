@@ -1,1 +1,85 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Frontend Mentor | Tip calculator app</title><link rel="stylesheet" href="/index.c126a8e6.css"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.30e62e77.png"><script type="module" src="/index.61103a78.js"></script></head><body> <main> <div class="container"> <img src="/logo.fc70b7ad.svg" alt="Splitter logo" class="logo"> <div class="card"> <div class="row"> <div class="col-left"> <form class="form"> <label for="bill" class="label">Bill</label> <div class="input-wrapper"> <label for="bill" class="icon"><img src="/icon-dollar.5ec7c534.svg" alt="Dollar sign icon"></label> <input type="text" id="bill" class="input" placeholder="0"> </div> <p class="label">Select Tip %</p> <div class="grid"> <button class="percenteage-btn" value="5">5%</button> <button class="percenteage-btn" value="10">10%</button> <button class="percenteage-btn" value="15">15%</button> <button class="percenteage-btn" value="25">25%</button> <button class="percenteage-btn" value="50">50%</button> <input type="text" class="percenteage-input" placeholder="Custom"> </div> <label for="people-number" class="label">Number of People</label> <p class="error-message"></p> <div class="input-wrapper"> <label for="people-number" class="icon"><img src="/icon-person.27244280.svg" alt="Person icon"></label> <input type="text" id="people-number" class="input" placeholder="0"> </div> </form> </div> <div class="col-right"> <div class="card card--green"> <div class="row--mobile"> <p class="result-label">Tip Amount <br><span class="smaller">/ person</span></p> <p id="tip-amount" class="result-number">$0.00</p> </div> <div class="row--mobile"> <p class="result-label">Total <br><span class="smaller">/ person</span></p> <p id="total-amount" class="result-number">$0.00</p> </div> <button class="empty reset-btn">Reset</button> </div> </div> </div> </div> </div> </main> </body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Tip calculator app</title>
+    <link rel="stylesheet" href="./index.c126a8e6.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.30e62e77.png"
+    />
+    <script type="module" src="./index.61103a78.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <img src="./logo.fc70b7ad.svg" alt="Splitter logo" class="logo" />
+        <div class="card">
+          <div class="row">
+            <div class="col-left">
+              <form class="form">
+                <label for="bill" class="label">Bill</label>
+                <div class="input-wrapper">
+                  <label for="bill" class="icon"
+                    ><img
+                      src="./icon-dollar.5ec7c534.svg"
+                      alt="Dollar sign icon"
+                  /></label>
+                  <input type="text" id="bill" class="input" placeholder="0" />
+                </div>
+                <p class="label">Select Tip %</p>
+                <div class="grid">
+                  <button class="percenteage-btn" value="5">5%</button>
+                  <button class="percenteage-btn" value="10">10%</button>
+                  <button class="percenteage-btn" value="15">15%</button>
+                  <button class="percenteage-btn" value="25">25%</button>
+                  <button class="percenteage-btn" value="50">50%</button>
+                  <input
+                    type="text"
+                    class="percenteage-input"
+                    placeholder="Custom"
+                  />
+                </div>
+                <label for="people-number" class="label"
+                  >Number of People</label
+                >
+                <p class="error-message"></p>
+                <div class="input-wrapper">
+                  <label for="people-number" class="icon"
+                    ><img src="./icon-person.27244280.svg" alt="Person icon"
+                  /></label>
+                  <input
+                    type="text"
+                    id="people-number"
+                    class="input"
+                    placeholder="0"
+                  />
+                </div>
+              </form>
+            </div>
+            <div class="col-right">
+              <div class="card card--green">
+                <div class="row--mobile">
+                  <p class="result-label">
+                    Tip Amount <br /><span class="smaller">/ person</span>
+                  </p>
+                  <p id="tip-amount" class="result-number">$0.00</p>
+                </div>
+                <div class="row--mobile">
+                  <p class="result-label">
+                    Total <br /><span class="smaller">/ person</span>
+                  </p>
+                  <p id="total-amount" class="result-number">$0.00</p>
+                </div>
+                <button class="empty reset-btn">Reset</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
